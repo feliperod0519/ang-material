@@ -16,6 +16,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppRoutingModule,
     BrowserAnimationsModule, 
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
